@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\C++Projects\CardGuessingGame\x64\Debug\DiceGuessingGame.exe</FullPath>
+      <FullPath>D:\C++Projects\Dice-Guessing-Game\x64\Debug\DiceGuessingGame.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

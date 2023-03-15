@@ -138,18 +138,18 @@ bool PlayAgain()
 	char choice = ' ';
 	do 
 	{
-		failState = true;
+		failState = false;
 
 		std::cout << "Do you wish to gamble more partner?(y(es)/n(o)): ";
 		std::cin >> choice;
 		choice = tolower(choice);
-		if (choice == 'y') return true;
-		else if (choice == 'n') return false;
-		else 
+		if(choice !='y' && choice!='n') 
 		{
 			std::cout << "What? Tell me that again" << std::endl;
 			failState = true;
 		}
 
 	} while (failState);
+	if (choice == 'y') return true;
+	else if (choice == 'n') return false;
 }
